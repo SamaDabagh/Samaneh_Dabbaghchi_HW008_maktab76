@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="removing">
+      <div class="wrapper">
+        <div class="container">
+          <form action="#">
+            <h3>Login to Colorlib</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur, asperiores.
+            </p>
+            <div class="resonsive-760">
+              <label class="info" for="username">Username:</label>
+              <input
+                type="text"
+                id="username"
+                placeholder="your email@gmail.com"
+                name="username"
+              />
+            </div>
+
+            <div class="resonsive-760">
+              <label class="info" for="password">Password:</label>
+              <input
+                type="password"
+                id="password"
+                placeholder="Your password"
+                name="password"
+              />
+            </div>
+
+            <div class="remindsPassword">
+              <div class="checkbox">
+                <input
+                  type="checkbox"
+                  checked
+                  id="remPassword"
+                  name="remPassword"
+                />
+                <label class="remember" for="remPassword">Remember me </label>
+              </div>
+              <div>
+                <a href="#" class="forgetPass">Forget Password?</a>
+              </div>
+            </div>
+            <button onclick="login(event)" class="login-button">login</button>
+          </form>
+        </div>
+      </div>
+
+      <aside>
+        <img src="shelves.jpg" alt="shelves" />
+      </aside>
+    </main>
+    <div id="second-page">
+      <h5 id="demo"></h5>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
